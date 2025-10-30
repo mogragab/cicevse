@@ -1,0 +1,1453 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{hawkins2012environmental}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d058d3656940925b8b755876a21ac792}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Troy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7c359a5b3f13febe4c07fcf4ff5447ba}{%
+           family={Gausen},
+           familyi={G\bibinitperiod},
+           given={Ole-Morten},
+           giveni={O\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=fad567eb499dd60f6f1388737ed0b322}{%
+           family={Str{ø}mman},
+           familyi={S\bibinitperiod},
+           given={Anders\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{629d81dd7e681f6020f708a5a888c9fa}
+      \strng{fullhash}{75c86a37c4bd665ce000a10115864be0}
+      \strng{fullhashraw}{75c86a37c4bd665ce000a10115864be0}
+      \strng{bibnamehash}{75c86a37c4bd665ce000a10115864be0}
+      \strng{authorbibnamehash}{75c86a37c4bd665ce000a10115864be0}
+      \strng{authornamehash}{629d81dd7e681f6020f708a5a888c9fa}
+      \strng{authorfullhash}{75c86a37c4bd665ce000a10115864be0}
+      \strng{authorfullhashraw}{75c86a37c4bd665ce000a10115864be0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Life Cycle Assessment}
+      \field{title}{Environmental impacts of hybrid and electric vehicles—a review}
+      \field{volume}{17}
+      \field{year}{2012}
+      \field{pages}{997\bibrangedash 1014}
+      \range{pages}{18}
+    \endentry
+    \entry{boudina2020review}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=62ebcae9215f8bba90b4c1c6ebdc3e1c}{%
+           family={Boudina},
+           familyi={B\bibinitperiod},
+           given={Rabah},
+           giveni={R\bibinitperiod}}}%
+        {{hash=735251ff30c1ec1c149b7acd80972b97}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianhui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7fe80e647334bcc01f0c05245ec93e18}{%
+           family={Benbouzid},
+           familyi={B\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4117253179404561dff236e1ce1b1cab}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ff1566d975b32e10572dbd1048b59251}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lixing},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{e9aa12e1a8cf38533a5b596d0cd632cb}
+      \strng{fullhash}{6f1a5b256c83c89f4351c12d6239b74d}
+      \strng{fullhashraw}{6f1a5b256c83c89f4351c12d6239b74d}
+      \strng{bibnamehash}{6f1a5b256c83c89f4351c12d6239b74d}
+      \strng{authorbibnamehash}{6f1a5b256c83c89f4351c12d6239b74d}
+      \strng{authornamehash}{e9aa12e1a8cf38533a5b596d0cd632cb}
+      \strng{authorfullhash}{6f1a5b256c83c89f4351c12d6239b74d}
+      \strng{authorfullhashraw}{6f1a5b256c83c89f4351c12d6239b74d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{number}{1}
+      \field{title}{A review on stochastic approach for phev integration control in a distribution system with an optimized battery power demand model}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{139}
+      \range{pages}{1}
+    \endentry
+    \entry{sani2022privacy}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6159e793c7d2272f40225e42f58cb0fa}{%
+           family={Sani},
+           familyi={S\bibinitperiod},
+           given={Abdul\bibnamedelima Rahman},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b4897bda6f391d07ed9429a10764ae4f}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Muneeb\bibnamedelima Ul},
+           giveni={M\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=2329606ee30094bfea6d6c7b6f1ede90}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jinjun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1f232fd819c4f12b50d7275ecccbc4f}
+      \strng{fullhash}{85bce23683131560406147466d5f8d20}
+      \strng{fullhashraw}{85bce23683131560406147466d5f8d20}
+      \strng{bibnamehash}{85bce23683131560406147466d5f8d20}
+      \strng{authorbibnamehash}{85bce23683131560406147466d5f8d20}
+      \strng{authornamehash}{c1f232fd819c4f12b50d7275ecccbc4f}
+      \strng{authorfullhash}{85bce23683131560406147466d5f8d20}
+      \strng{authorfullhashraw}{85bce23683131560406147466d5f8d20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2205.08462}
+      \field{title}{Privacy preserving machine learning for electric vehicles: A survey}
+      \field{year}{2022}
+    \endentry
+    \entry{buedi2024enhancing}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=f260373340eaac423d220aaecf7da4ea}{%
+           family={Buedi},
+           familyi={B\bibinitperiod},
+           given={Emmanuel\bibnamedelima Dana},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=92da2f5c0b5c354e79a7a3cf881f5bf6}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={Ali\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ac4aa0bdb4973afc91fee0b12a344693}{%
+           family={Dadkhah},
+           familyi={D\bibinitperiod},
+           given={Sajjad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=04394c4b4593a7c6689ede5d4700e364}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Raphael\bibnamedelima Lionel},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{92f7d62b5304252d975d0858cfd3db97}
+      \strng{fullhash}{3ec4b78d5de5336baa59bad1ef44da48}
+      \strng{fullhashraw}{3ec4b78d5de5336baa59bad1ef44da48}
+      \strng{bibnamehash}{3ec4b78d5de5336baa59bad1ef44da48}
+      \strng{authorbibnamehash}{3ec4b78d5de5336baa59bad1ef44da48}
+      \strng{authornamehash}{92f7d62b5304252d975d0858cfd3db97}
+      \strng{authorfullhash}{3ec4b78d5de5336baa59bad1ef44da48}
+      \strng{authorfullhashraw}{3ec4b78d5de5336baa59bad1ef44da48}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IFIP Annual Conference on Data and Applications Security and Privacy}
+      \field{title}{Enhancing ev charging station security using a multi-dimensional dataset: Cicevse2024}
+      \field{year}{2024}
+      \field{pages}{171\bibrangedash 190}
+      \range{pages}{20}
+    \endentry
+    \entry{makhmudov2025online}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1fbc562833b740967a4a8859aaebf9de}{%
+           family={Makhmudov},
+           familyi={M\bibinitperiod},
+           given={Fazliddin},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a075a9076520da30b7cd4eac96c24744}{%
+           family={Kilichev},
+           familyi={K\bibinitperiod},
+           given={Dusmurod},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c17dc28a76f5167fa998d5d859929f35}{%
+           family={Giyosov},
+           familyi={G\bibinitperiod},
+           given={Ulugbek},
+           giveni={U\bibinitperiod}}}%
+        {{hash=05e4899441aae3430526e5da9076e9f8}{%
+           family={Akhmedov},
+           familyi={A\bibinitperiod},
+           given={Farkhod},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{42c5ea0aadd5728ba6ac3ac12d3f6aa8}
+      \strng{fullhash}{80a372a70bab23ac29cca52e22e7d311}
+      \strng{fullhashraw}{80a372a70bab23ac29cca52e22e7d311}
+      \strng{bibnamehash}{80a372a70bab23ac29cca52e22e7d311}
+      \strng{authorbibnamehash}{80a372a70bab23ac29cca52e22e7d311}
+      \strng{authornamehash}{42c5ea0aadd5728ba6ac3ac12d3f6aa8}
+      \strng{authorfullhash}{80a372a70bab23ac29cca52e22e7d311}
+      \strng{authorfullhashraw}{80a372a70bab23ac29cca52e22e7d311}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{5}
+      \field{title}{Online Machine Learning for Intrusion Detection in Electric Vehicle Charging Systems}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{712}
+      \range{pages}{1}
+    \endentry
+    \entry{naeem2025optimizing}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=7fb1382520f012d1da5c7921c45bf819}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={Hamad},
+           giveni={H\bibinitperiod}}}%
+        {{hash=389c71cb4306b1d9f6e0a1937156fbe1}{%
+           family={Ullah},
+           familyi={U\bibinitperiod},
+           given={Farhan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c6b7d5b4a73407dcf994e773fb27a04f}{%
+           family={Krejcar},
+           familyi={K\bibinitperiod},
+           given={Ondrej},
+           giveni={O\bibinitperiod}}}%
+        {{hash=399119c779a8450a3ca9df9e2f341ae9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Deguang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7702cb77ac35bc0c2c1b1f40de8adec6}{%
+           family={Vasan},
+           familyi={V\bibinitperiod},
+           given={Danish},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{049b938bac28019a811799edc10095a6}
+      \strng{fullhash}{a8dc11c751f31da104bb342d0f94821e}
+      \strng{fullhashraw}{a8dc11c751f31da104bb342d0f94821e}
+      \strng{bibnamehash}{a8dc11c751f31da104bb342d0f94821e}
+      \strng{authorbibnamehash}{a8dc11c751f31da104bb342d0f94821e}
+      \strng{authornamehash}{049b938bac28019a811799edc10095a6}
+      \strng{authorfullhash}{a8dc11c751f31da104bb342d0f94821e}
+      \strng{authorfullhashraw}{a8dc11c751f31da104bb342d0f94821e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Critical Infrastructure Protection}
+      \field{title}{Optimizing vehicle security: A multiclassification framework using deep transfer learning and metaheuristic-based genetic algorithm optimization}
+      \field{volume}{49}
+      \field{year}{2025}
+      \field{pages}{100745}
+      \range{pages}{1}
+    \endentry
+    \entry{almadhor2025transfer}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=c87788163d5df8ee12cce4885c57b119}{%
+           family={Almadhor},
+           familyi={A\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=26f248c21c825db60b229863c3e77304}{%
+           family={Alsubai},
+           familyi={A\bibinitperiod},
+           given={Shtwai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4fd0246dc44a7813824a27ec928ca903}{%
+           family={Bouazzi},
+           familyi={B\bibinitperiod},
+           given={Imen},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b5a474b6e3ceab918835fa56c1843db9}{%
+           family={Karovic},
+           familyi={K\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=631246cd288669df000490c748146c72}{%
+           family={Davidekova},
+           familyi={D\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=866136f5eb8227abb43e651bf8badd83}{%
+           family={Al\bibnamedelima Hejaili},
+           familyi={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8ab3309ae26e0a23ebfd8efb1c596554}{%
+           family={Sampedro},
+           familyi={S\bibinitperiod},
+           given={Gabriel\bibnamedelima Avelino},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{70575a25a4eddd41853821b9cfb8e094}
+      \strng{fullhash}{3b14e53829d8667dfb5a5908f5c1cf28}
+      \strng{fullhashraw}{3b14e53829d8667dfb5a5908f5c1cf28}
+      \strng{bibnamehash}{70575a25a4eddd41853821b9cfb8e094}
+      \strng{authorbibnamehash}{70575a25a4eddd41853821b9cfb8e094}
+      \strng{authornamehash}{70575a25a4eddd41853821b9cfb8e094}
+      \strng{authorfullhash}{3b14e53829d8667dfb5a5908f5c1cf28}
+      \strng{authorfullhashraw}{3b14e53829d8667dfb5a5908f5c1cf28}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Transfer learning for securing electric vehicle charging infrastructure from cyber-physical attacks}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{9331}
+      \range{pages}{1}
+    \endentry
+    \entry{hamdare2023cybersecurity}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=86b93a1111a1084aa785d82c95c17b9f}{%
+           family={Hamdare},
+           familyi={H\bibinitperiod},
+           given={Sayali},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aced7d712b54783149291d53e6983fcb}{%
+           family={Kaiwartya},
+           familyi={K\bibinitperiod},
+           given={Omprakash},
+           giveni={O\bibinitperiod}}}%
+        {{hash=34660fd916e79f5bccc3756ceaaf3af2}{%
+           family={Aljaidi},
+           familyi={A\bibinitperiod},
+           given={Mosleh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=644152fc3fa97536f6d030142d5e4510}{%
+           family={Jugran},
+           familyi={J\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5fde2ec473a5900f24f02ea9a11359ed}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fa2c1bfb5e6bd2d441002f9a4d51234c}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Santosh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ceb927bc3ee9f1b320a471e76d4eca42}{%
+           family={Mahmud},
+           familyi={M\bibinitperiod},
+           given={Mufti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aae587aa61831b0b87485957445e5812}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4fdf4561fc63eb609b4d2c1f36d072f7}{%
+           family={Lloret},
+           familyi={L\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{1eb7fbf332a5e52acf50b396211ba076}
+      \strng{fullhash}{cb10e264c8d8c616ea5230916411cd2c}
+      \strng{fullhashraw}{cb10e264c8d8c616ea5230916411cd2c}
+      \strng{bibnamehash}{1eb7fbf332a5e52acf50b396211ba076}
+      \strng{authorbibnamehash}{1eb7fbf332a5e52acf50b396211ba076}
+      \strng{authornamehash}{1eb7fbf332a5e52acf50b396211ba076}
+      \strng{authorfullhash}{cb10e264c8d8c616ea5230916411cd2c}
+      \strng{authorfullhashraw}{cb10e264c8d8c616ea5230916411cd2c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{15}
+      \field{title}{Cybersecurity risk analysis of electric vehicles charging stations}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{6716}
+      \range{pages}{1}
+    \endentry
+    \entry{antoun2020detailed}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=e1124acd6a7929f56fff26d9941a1ead}{%
+           family={Antoun},
+           familyi={A\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=77aacdf3521b1eb18a94d2571114c928}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={ME},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dafcc6bba73183b32f5a6c2d80c4ec01}{%
+           family={Moussa},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=95677f2d465b6c1179383176e00b5b36}{%
+           family={Atallah},
+           familyi={A\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fc811d46b57d060997f24e95c4c90583}{%
+           family={Assi},
+           familyi={A\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{34a2c0a01ed33c00784b8736077b1249}
+      \strng{fullhash}{00b64a309589877d6f140f491313913f}
+      \strng{fullhashraw}{00b64a309589877d6f140f491313913f}
+      \strng{bibnamehash}{00b64a309589877d6f140f491313913f}
+      \strng{authorbibnamehash}{00b64a309589877d6f140f491313913f}
+      \strng{authornamehash}{34a2c0a01ed33c00784b8736077b1249}
+      \strng{authorfullhash}{00b64a309589877d6f140f491313913f}
+      \strng{authorfullhashraw}{00b64a309589877d6f140f491313913f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Network}
+      \field{number}{3}
+      \field{title}{A detailed security assessment of the ev charging ecosystem}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{pages}{200\bibrangedash 207}
+      \range{pages}{8}
+    \endentry
+    \entry{rai2025securing}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=dd8253a90b90d851823d239fda1a55ab}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Ritu},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c7bec7443c129ca9c83f8d54d71a1083}{%
+           family={Grover},
+           familyi={G\bibinitperiod},
+           given={Jyoti},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d7c04b53160de2b2c56243db7783a9f0}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Prinkle},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f2b0e74ad5da5f097bc89ace6336d060}{%
+           family={Pareek},
+           familyi={P\bibinitperiod},
+           given={Ayush},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{26aef59208b17b80bdb8658927150298}
+      \strng{fullhash}{ae0456dd487c2c4f677b22338974cd91}
+      \strng{fullhashraw}{ae0456dd487c2c4f677b22338974cd91}
+      \strng{bibnamehash}{ae0456dd487c2c4f677b22338974cd91}
+      \strng{authorbibnamehash}{ae0456dd487c2c4f677b22338974cd91}
+      \strng{authornamehash}{26aef59208b17b80bdb8658927150298}
+      \strng{authorfullhash}{ae0456dd487c2c4f677b22338974cd91}
+      \strng{authorfullhashraw}{ae0456dd487c2c4f677b22338974cd91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Securing the CAN bus using deep learning for intrusion detection in vehicles}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{13820}
+      \range{pages}{1}
+    \endentry
+    \entry{lipu2023artificial}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=fbad9662bad2271b90ba1af93b36e57f}{%
+           family={Lipu},
+           familyi={L\bibinitperiod},
+           given={MS\bibnamedelima Hossain},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=936282ed2ab32e4052724555427f271c}{%
+           family={Miah},
+           familyi={M\bibinitperiod},
+           given={Md\bibnamedelima Sazal},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=31dd27a9200459033b027176e610315f}{%
+           family={Jamal},
+           familyi={J\bibinitperiod},
+           given={Taskin},
+           giveni={T\bibinitperiod}}}%
+        {{hash=313a234ee2a8f54779d890b2b167f891}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Tuhibur},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e9720485bdcf26ec5250c396ad8a8fe7}{%
+           family={Ansari},
+           familyi={A\bibinitperiod},
+           given={Shaheer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4aa420f46ff639d0444369d9d164c6f9}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Siddikur},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=702691e67f687028533f71190d56e587}{%
+           family={Ashique},
+           familyi={A\bibinitperiod},
+           given={Ratil\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=245f86d9067cfcf900eea66781f20e47}{%
+           family={Shihavuddin},
+           familyi={S\bibinitperiod},
+           given={ASM},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8ba10471881cc68499d8956f3ee8b945}{%
+           family={Shakib},
+           familyi={S\bibinitperiod},
+           given={Mohammed\bibnamedelima Nazmus},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{de04744b0e45c3eeeed271a4a8bf2243}
+      \strng{fullhash}{b6b0d3e4460d67f131428fbb4a4d5eb5}
+      \strng{fullhashraw}{b6b0d3e4460d67f131428fbb4a4d5eb5}
+      \strng{bibnamehash}{de04744b0e45c3eeeed271a4a8bf2243}
+      \strng{authorbibnamehash}{de04744b0e45c3eeeed271a4a8bf2243}
+      \strng{authornamehash}{de04744b0e45c3eeeed271a4a8bf2243}
+      \strng{authorfullhash}{b6b0d3e4460d67f131428fbb4a4d5eb5}
+      \strng{authorfullhashraw}{b6b0d3e4460d67f131428fbb4a4d5eb5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vehicles}
+      \field{number}{1}
+      \field{title}{Artificial intelligence approaches for advanced battery management system in electric vehicle applications: A statistical analysis towards future research opportunities}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{pages}{22\bibrangedash 70}
+      \range{pages}{49}
+    \endentry
+    \entry{kohler2022brokenwire}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=881e3e05b74191df213d4611b5c22f0b}{%
+           family={Köhler},
+           familyi={K\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1202f0685600c7190ee5f7b874552ae4}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bade8eca92e6e0f62acc03aa3c6fa3d0}{%
+           family={Strohmeier},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1645d8bef55e7f7b84b3ae7a9a8e3729}{%
+           family={Martinovic},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad1dac24801b64c9a2c9d02a1ac4cb41}
+      \strng{fullhash}{9165905c462906fd4b41b059651e2c78}
+      \strng{fullhashraw}{9165905c462906fd4b41b059651e2c78}
+      \strng{bibnamehash}{9165905c462906fd4b41b059651e2c78}
+      \strng{authorbibnamehash}{9165905c462906fd4b41b059651e2c78}
+      \strng{authornamehash}{ad1dac24801b64c9a2c9d02a1ac4cb41}
+      \strng{authorfullhash}{9165905c462906fd4b41b059651e2c78}
+      \strng{authorfullhashraw}{9165905c462906fd4b41b059651e2c78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2202.02104}
+      \field{title}{Brokenwire: Wireless disruption of ccs electric vehicle charging}
+      \field{year}{2022}
+    \endentry
+    \entry{johnson2022review}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=58ab8e41700817da0a280ded35fa3fee}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=13c03493fb9e7ab12039c27d6b934ca5}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=371cf706618ece598dce1ba43c3f7a6e}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e482935058c4f6ae8b2dda74e652d96b}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{5c57bc82189eec8a81e41317ac40fe60}
+      \strng{fullhash}{6f1374c46bf82a691a01843455694350}
+      \strng{fullhashraw}{6f1374c46bf82a691a01843455694350}
+      \strng{bibnamehash}{6f1374c46bf82a691a01843455694350}
+      \strng{authorbibnamehash}{6f1374c46bf82a691a01843455694350}
+      \strng{authornamehash}{5c57bc82189eec8a81e41317ac40fe60}
+      \strng{authorfullhash}{6f1374c46bf82a691a01843455694350}
+      \strng{authorfullhashraw}{6f1374c46bf82a691a01843455694350}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energies}
+      \field{number}{11}
+      \field{title}{Review of electric vehicle charger cybersecurity vulnerabilities, potential impacts, and defenses}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{pages}{3931}
+      \range{pages}{1}
+    \endentry
+    \entry{kumar2025machine}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=3d2b5b67ebf1fe84db1e392b5b2499a1}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anmol\bibnamedelima Geetesh},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=dc5889d7c977838dbeeb1b6c45f88eaa}{%
+           family={Amandeep},
+           familyi={A\bibinitperiod}}}%
+        {{hash=e2e39b77dfc5f5d754ad0df14500f8d0}{%
+           family={Dahiya},
+           familyi={D\bibinitperiod},
+           given={Sonika},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0c5c2b7e2c7f285f9d10794995ceae6c}
+      \strng{fullhash}{830a393d430eb2849f7ad848f67be01e}
+      \strng{fullhashraw}{830a393d430eb2849f7ad848f67be01e}
+      \strng{bibnamehash}{830a393d430eb2849f7ad848f67be01e}
+      \strng{authorbibnamehash}{830a393d430eb2849f7ad848f67be01e}
+      \strng{authornamehash}{0c5c2b7e2c7f285f9d10794995ceae6c}
+      \strng{authorfullhash}{830a393d430eb2849f7ad848f67be01e}
+      \strng{authorfullhashraw}{830a393d430eb2849f7ad848f67be01e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 International Russian Smart Industry Conference (SmartIndustryCon)}
+      \field{title}{Machine Learning for Advancing Electric Vehicles Security Leveraging CICEVSE2024}
+      \field{year}{2025}
+    \endentry
+    \entry{alcaraz2017ocpp}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7e50785b5a3c4da3fcb1a6f7450aa233}{%
+           family={Alcaraz},
+           familyi={A\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6fd77728efc47ea4b651372367fdc499}{%
+           family={Lopez},
+           familyi={L\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0feeecd6ffd5ed3f9bfc1caaac4f981}{%
+           family={Wolthusen},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9b3deee7aed3c438d20c3164a80c4083}
+      \strng{fullhash}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \strng{fullhashraw}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \strng{bibnamehash}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \strng{authorbibnamehash}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \strng{authornamehash}{9b3deee7aed3c438d20c3164a80c4083}
+      \strng{authorfullhash}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \strng{authorfullhashraw}{19d01b32e0a0426d44f3d63e11b3c1fd}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Smart Grid}
+      \field{number}{5}
+      \field{title}{OCPP protocol: Security threats and challenges}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{2452\bibrangedash 2459}
+      \range{pages}{8}
+    \endentry
+    \entry{mohamed2023artificial}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=e9373e0939ba5d32bdd71f18240e8c0a}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Nachaat},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6a5c51660d4092e0832af73f5eaea0ba}{%
+           family={Almazrouei},
+           familyi={A\bibinitperiod},
+           given={Saif\bibnamedelima Khameis},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2022dc927ece1b620c737a6e76d04423}{%
+           family={Oubelaid},
+           familyi={O\bibinitperiod},
+           given={Adel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eab70f640462cae7ab725b2cc9eca50f}{%
+           family={Bajaj},
+           familyi={B\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ccaf4bce748f1200c906d643c06bfc6}{%
+           family={Jurado},
+           familyi={J\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=da045422c66a4594174d6a0fcf04f9ad}{%
+           family={Kamel},
+           familyi={K\bibinitperiod},
+           given={Salah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5582d3e2add21be12d832b353b69943c}
+      \strng{fullhash}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \strng{fullhashraw}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \strng{bibnamehash}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \strng{authorbibnamehash}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \strng{authornamehash}{5582d3e2add21be12d832b353b69943c}
+      \strng{authorfullhash}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \strng{authorfullhashraw}{ae5bcf6d9cd1d78ba2cc504f53cbefcd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 5th Global Power, Energy and Communication Conference (GPECOM)}
+      \field{title}{Artificial intelligence (AI) and machine learning (ML)-based Information security in electric vehicles: A review}
+      \field{year}{2023}
+      \field{pages}{108\bibrangedash 113}
+      \range{pages}{6}
+    \endentry
+    \entry{bari2023intrusion}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e00e72772265ec6a56d40aa4367882cc}{%
+           family={Bari},
+           familyi={B\bibinitperiod},
+           given={Bifta\bibnamedelima Sama},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9f7910c5d65d9a303abf31141bd86b72}{%
+           family={Yelamarthi},
+           familyi={Y\bibinitperiod},
+           given={Kumar},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4325e1ac4453f32b0ba801e1138744de}{%
+           family={Ghafoor},
+           familyi={G\bibinitperiod},
+           given={Sheikh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{f8995be46ee5e2cd65a0b2424afc0a3c}
+      \strng{fullhash}{2dfb0742c0682328cfac91165c60e906}
+      \strng{fullhashraw}{2dfb0742c0682328cfac91165c60e906}
+      \strng{bibnamehash}{2dfb0742c0682328cfac91165c60e906}
+      \strng{authorbibnamehash}{2dfb0742c0682328cfac91165c60e906}
+      \strng{authornamehash}{f8995be46ee5e2cd65a0b2424afc0a3c}
+      \strng{authorfullhash}{2dfb0742c0682328cfac91165c60e906}
+      \strng{authorfullhashraw}{2dfb0742c0682328cfac91165c60e906}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{7}
+      \field{title}{Intrusion detection in vehicle controller area network (can) bus using machine learning: A comparative performance study}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{3610}
+      \range{pages}{1}
+    \endentry
+    \entry{kang2016intrusion}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=87fd09ca10cbad0183f1727cd55c77e0}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Min-Joo},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=cb6a6b464a486a87a8cbc86941076e24}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jae-Woo},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{512d625536449ac09588f34b2b5d8161}
+      \strng{fullhash}{512d625536449ac09588f34b2b5d8161}
+      \strng{fullhashraw}{512d625536449ac09588f34b2b5d8161}
+      \strng{bibnamehash}{512d625536449ac09588f34b2b5d8161}
+      \strng{authorbibnamehash}{512d625536449ac09588f34b2b5d8161}
+      \strng{authornamehash}{512d625536449ac09588f34b2b5d8161}
+      \strng{authorfullhash}{512d625536449ac09588f34b2b5d8161}
+      \strng{authorfullhashraw}{512d625536449ac09588f34b2b5d8161}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{6}
+      \field{title}{Intrusion detection system using deep neural network for in-vehicle network security}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{e0155781}
+      \range{pages}{-1}
+    \endentry
+    \entry{taylor2016anomaly}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=b61d67e75dbe2eea82ce091186b4b2fa}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a1ad539325efdf0c7c5d3404697822ca}{%
+           family={Leblanc},
+           familyi={L\bibinitperiod},
+           given={Stephane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1aa06e66630f0d8aaa52b4b4af7dce1b}{%
+           family={Japkowicz},
+           familyi={J\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7bfe4bda79fdfc97a1f1916866de7538}
+      \strng{fullhash}{453db45661763342a7a4431853e687ea}
+      \strng{fullhashraw}{453db45661763342a7a4431853e687ea}
+      \strng{bibnamehash}{453db45661763342a7a4431853e687ea}
+      \strng{authorbibnamehash}{453db45661763342a7a4431853e687ea}
+      \strng{authornamehash}{7bfe4bda79fdfc97a1f1916866de7538}
+      \strng{authorfullhash}{453db45661763342a7a4431853e687ea}
+      \strng{authorfullhashraw}{453db45661763342a7a4431853e687ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE international conference on data science and advanced analytics (DSAA)}
+      \field{title}{Anomaly detection in automobile control network data with long short-term memory networks}
+      \field{year}{2016}
+      \field{pages}{130\bibrangedash 139}
+      \range{pages}{10}
+    \endentry
+    \entry{ashraf2020novel}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fcfec86bcf27838c88051fcf1f6133b4}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={Javaid},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b8255a6779a5e1b74d0c62e710ce65cf}{%
+           family={Bakhshi},
+           familyi={B\bibinitperiod},
+           given={Ahmad\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ab9bcf08d864de16f62df4a541080d3c}{%
+           family={Moustafa},
+           familyi={M\bibinitperiod},
+           given={Nour},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cd3ad382555d1c9142cc16856142f3e2}{%
+           family={Khurshid},
+           familyi={K\bibinitperiod},
+           given={Haris},
+           giveni={H\bibinitperiod}}}%
+        {{hash=272a4fa12846a5e36a729d0fa2531cfc}{%
+           family={Javed},
+           familyi={J\bibinitperiod},
+           given={Arshad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dedc0c0d7a6640cdfe9b8ec2de3117f0}{%
+           family={Beheshti},
+           familyi={B\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0f04df0ad1a3b6d5c1397478fa16ca69}
+      \strng{fullhash}{2e429413f0e6380663ba722be8bf19bd}
+      \strng{fullhashraw}{2e429413f0e6380663ba722be8bf19bd}
+      \strng{bibnamehash}{2e429413f0e6380663ba722be8bf19bd}
+      \strng{authorbibnamehash}{2e429413f0e6380663ba722be8bf19bd}
+      \strng{authornamehash}{0f04df0ad1a3b6d5c1397478fa16ca69}
+      \strng{authorfullhash}{2e429413f0e6380663ba722be8bf19bd}
+      \strng{authorfullhashraw}{2e429413f0e6380663ba722be8bf19bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on intelligent transportation systems}
+      \field{number}{7}
+      \field{title}{A novel deep learning-enabled lstm autoencoder architecture for discovering anomalous events from intelligent transportation systems}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{pages}{4507\bibrangedash 4518}
+      \range{pages}{12}
+    \endentry
+    \entry{seo2018gids}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=e93cb17a6e6dd85244011159bdb75b9a}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8a106683cfecc3f1437198d963cc81aa}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={HM},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2652a2079280de344081c0788264e6c3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={HK},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c4c2079db745b3e12673fb1470832bd2}
+      \strng{fullhash}{5da9ceb89786b61ba78504c6edbe2c91}
+      \strng{fullhashraw}{5da9ceb89786b61ba78504c6edbe2c91}
+      \strng{bibnamehash}{5da9ceb89786b61ba78504c6edbe2c91}
+      \strng{authorbibnamehash}{5da9ceb89786b61ba78504c6edbe2c91}
+      \strng{authornamehash}{c4c2079db745b3e12673fb1470832bd2}
+      \strng{authorfullhash}{5da9ceb89786b61ba78504c6edbe2c91}
+      \strng{authorfullhashraw}{5da9ceb89786b61ba78504c6edbe2c91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 16th annual conference on privacy, security and trust (PST)}
+      \field{title}{GIDS: GAN based intrusion detection system for in-vehicle network}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{desta2022rec}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c5bfc8534f3f704fba4b0e00d6d41d5f}{%
+           family={Desta},
+           familyi={D\bibinitperiod},
+           given={Abelneh\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=acf528bd072183349d1152ea19c8ba30}{%
+           family={Ohira},
+           familyi={O\bibinitperiod},
+           given={Shinya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=abe3575af978f122d16c70e78d994e46}{%
+           family={Arai},
+           familyi={A\bibinitperiod},
+           given={Ikuya},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e7568d7b4748e37e9b686ccf7889f0f4}{%
+           family={Fujikawa},
+           familyi={F\bibinitperiod},
+           given={Kazutoshi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e9df421f629b7fe5f80dc4f13f80a718}
+      \strng{fullhash}{e4e62403a06953ebdbdcaccd0ab306be}
+      \strng{fullhashraw}{e4e62403a06953ebdbdcaccd0ab306be}
+      \strng{bibnamehash}{e4e62403a06953ebdbdcaccd0ab306be}
+      \strng{authorbibnamehash}{e4e62403a06953ebdbdcaccd0ab306be}
+      \strng{authornamehash}{e9df421f629b7fe5f80dc4f13f80a718}
+      \strng{authorfullhash}{e4e62403a06953ebdbdcaccd0ab306be}
+      \strng{authorfullhashraw}{e4e62403a06953ebdbdcaccd0ab306be}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vehicular Communications}
+      \field{title}{Rec-CNN: In-vehicle networks intrusion detection using convolutional neural networks trained on recurrence plots}
+      \field{volume}{35}
+      \field{year}{2022}
+      \field{pages}{100470}
+      \range{pages}{1}
+    \endentry
+    \entry{aloraini2024adversarial}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ca021ce3c839ca8380b59a2509a681d7}{%
+           family={Aloraini},
+           familyi={A\bibinitperiod},
+           given={Fatimah},
+           giveni={F\bibinitperiod}}}%
+        {{hash=10e5333f2fa5e4518ddc26018cc387fc}{%
+           family={Javed},
+           familyi={J\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2133652469cad93d6d32beece11fecab}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{fa9f717a4ff19276c41d89ed6947bdf9}
+      \strng{fullhash}{80a1f9bf87562529dbbc218430c5bd38}
+      \strng{fullhashraw}{80a1f9bf87562529dbbc218430c5bd38}
+      \strng{bibnamehash}{80a1f9bf87562529dbbc218430c5bd38}
+      \strng{authorbibnamehash}{80a1f9bf87562529dbbc218430c5bd38}
+      \strng{authornamehash}{fa9f717a4ff19276c41d89ed6947bdf9}
+      \strng{authorfullhash}{80a1f9bf87562529dbbc218430c5bd38}
+      \strng{authorfullhashraw}{80a1f9bf87562529dbbc218430c5bd38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{12}
+      \field{title}{Adversarial attacks on intrusion detection systems in in-vehicle networks of connected and autonomous vehicles}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{3848}
+      \range{pages}{1}
+    \endentry
+    \entry{pourmirza2021electric}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=b6488bebf1826a376d997cd36af6ff06}{%
+           family={Pourmirza},
+           familyi={P\bibinitperiod},
+           given={Zohreh},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f766a5a99c402548e1d1da831d998aea}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{fullhash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{fullhashraw}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{bibnamehash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{authorbibnamehash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{authornamehash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{authorfullhash}{7de35ac19bd8de707c2ddfda1ce24000}
+      \strng{authorfullhashraw}{7de35ac19bd8de707c2ddfda1ce24000}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE 9th International Conference on Smart Energy Grid Engineering (SEGE)}
+      \field{title}{Electric vehicle charging station: cyber security challenges and perspective}
+      \field{year}{2021}
+      \field{pages}{111\bibrangedash 116}
+      \range{pages}{6}
+    \endentry
+    \entry{elmo2023disrupting}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=bf2ddc2596db572220b1c5f49d355c71}{%
+           family={Elmo},
+           familyi={E\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=994b3dc3d8fd148d0cb6d6ec0ee646fd}{%
+           family={Fragkos},
+           familyi={F\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=58ab8e41700817da0a280ded35fa3fee}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=671e12e728c76669238427de13b0032c}{%
+           family={Rohde},
+           familyi={R\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ef6725f3189fd98f76f37892a67d2425}{%
+           family={Salinas},
+           familyi={S\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a08bd86912c236721251181fb0676bf7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiacheng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{756c22a5e77cc179d6d5390d83436a9c}
+      \strng{fullhash}{136a98081bf9214222291f361643ed89}
+      \strng{fullhashraw}{136a98081bf9214222291f361643ed89}
+      \strng{bibnamehash}{136a98081bf9214222291f361643ed89}
+      \strng{authorbibnamehash}{136a98081bf9214222291f361643ed89}
+      \strng{authornamehash}{756c22a5e77cc179d6d5390d83436a9c}
+      \strng{authorfullhash}{136a98081bf9214222291f361643ed89}
+      \strng{authorfullhashraw}{136a98081bf9214222291f361643ed89}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 Resilience Week (RWS)}
+      \field{title}{Disrupting EV Charging sessions and gaining remote code execution with DoS, MITM, and Code Injection Exploits using OCPP 1.6}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{alcaraz2023ocpp}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7e50785b5a3c4da3fcb1a6f7450aa233}{%
+           family={Alcaraz},
+           familyi={A\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d5cd77fb8a26a2ee853dc3560e37fba3}{%
+           family={Cumplido},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7d75740e428d761cd0237f82581f5350}{%
+           family={Triviño},
+           familyi={T\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9b3deee7aed3c438d20c3164a80c4083}
+      \strng{fullhash}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \strng{fullhashraw}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \strng{bibnamehash}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \strng{authorbibnamehash}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \strng{authornamehash}{9b3deee7aed3c438d20c3164a80c4083}
+      \strng{authorfullhash}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \strng{authorfullhashraw}{1d6ec681724aa1b6040ad23f9fd04a4a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information Security}
+      \field{number}{5}
+      \field{title}{OCPP in the spotlight: Threats and countermeasures for electric vehicle charging infrastructures 4.0}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{pages}{1395\bibrangedash 1421}
+      \range{pages}{27}
+    \endentry
+    \entry{javed2014adversarial}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a42423907d948a238498f4fe179e8d17}{%
+           family={Javed},
+           familyi={J\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39873f26426ba5bf886cefbcb1286f42}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a5857871b3fa8e30248b90990578a2b8}{%
+           family={Aloraini},
+           familyi={A\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c14162dd367b5c5ea2513a8a54994de5}
+      \strng{fullhash}{b0a4321c29a733b41abd7ac7c7300089}
+      \strng{fullhashraw}{b0a4321c29a733b41abd7ac7c7300089}
+      \strng{bibnamehash}{b0a4321c29a733b41abd7ac7c7300089}
+      \strng{authorbibnamehash}{b0a4321c29a733b41abd7ac7c7300089}
+      \strng{authornamehash}{c14162dd367b5c5ea2513a8a54994de5}
+      \strng{authorfullhash}{b0a4321c29a733b41abd7ac7c7300089}
+      \strng{authorfullhashraw}{b0a4321c29a733b41abd7ac7c7300089}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{title}{Adversarial attacks on intrusion detection systems in in-vehicle networks of connected and autonomous vehicles}
+      \field{volume}{24}
+      \field{year}{2014}
+      \field{pages}{12}
+      \range{pages}{1}
+    \endentry
+    \entry{mousaei2024advancing}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ff95d23e58a9ae7cc886180775b3573d}{%
+           family={Mousaei},
+           familyi={M\bibinitperiod},
+           given={Arash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b4d97d296e36a78df28600c3f1a5cb1c}{%
+           family={Naderi},
+           familyi={N\bibinitperiod},
+           given={Yahya},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f60b72c81403b72fe69a22e322c12139}{%
+           family={Bayram},
+           familyi={B\bibinitperiod},
+           given={I\bibnamedelima Safak},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fa3aaa2d178b2a0cf912c4f36f3ee05e}
+      \strng{fullhash}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \strng{fullhashraw}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \strng{bibnamehash}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \strng{authorbibnamehash}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \strng{authornamehash}{fa3aaa2d178b2a0cf912c4f36f3ee05e}
+      \strng{authorfullhash}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \strng{authorfullhashraw}{5b3e13a5e979768d0c1badd6aaa5017a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Advancing state of charge management in electric vehicles with machine learning: A technological review}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{43255\bibrangedash 43283}
+      \range{pages}{29}
+    \endentry
+    \entry{mazhar2023electric}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=71a96bfdc453fa6065d37d2faf007da4}{%
+           family={Mazhar},
+           familyi={M\bibinitperiod},
+           given={Tehseen},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a7041503d4144532e7da24aae9cdc02d}{%
+           family={Asif},
+           familyi={A\bibinitperiod},
+           given={Rizwana\bibnamedelima Naz},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=0f2370b3f52b1977270996bd5e7c35a1}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Muhammad\bibnamedelima Amir},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b0579c623c3a56f4a5fb76d3f4c51c7d}{%
+           family={Nadeem},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Asgher},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=05f494817f1ba7dbd7a06acd6f7222e5}{%
+           family={Haq},
+           familyi={H\bibinitperiod},
+           given={Inayatul},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5d776d54a842e1940ec5195f59b1019f}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7814764909da17d2c26f31b616c55c20}{%
+           family={Kamran},
+           familyi={K\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca70357e720a27fd678c77d529a6982e}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={Shahzad},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{b4eba61954e43c239ad01391ad649908}
+      \strng{fullhash}{16cc0c7c06d9e0285400d9bb882022af}
+      \strng{fullhashraw}{16cc0c7c06d9e0285400d9bb882022af}
+      \strng{bibnamehash}{b4eba61954e43c239ad01391ad649908}
+      \strng{authorbibnamehash}{b4eba61954e43c239ad01391ad649908}
+      \strng{authornamehash}{b4eba61954e43c239ad01391ad649908}
+      \strng{authorfullhash}{16cc0c7c06d9e0285400d9bb882022af}
+      \strng{authorfullhashraw}{16cc0c7c06d9e0285400d9bb882022af}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{3}
+      \field{title}{Electric vehicle charging system in the smart grid using different machine learning methods}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{pages}{2603}
+      \range{pages}{1}
+    \endentry
+    \entry{khan2023blockchain}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=77ee8ec119fce6f1fb0852ad4b6c8706}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Mohammad\bibnamedelima Faisal},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0612dd72aecf98734592e6b417586ab9}{%
+           family={Abaoud},
+           familyi={A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{49adbba32178e81fbaba174a78817a25}
+      \strng{fullhash}{49adbba32178e81fbaba174a78817a25}
+      \strng{fullhashraw}{49adbba32178e81fbaba174a78817a25}
+      \strng{bibnamehash}{49adbba32178e81fbaba174a78817a25}
+      \strng{authorbibnamehash}{49adbba32178e81fbaba174a78817a25}
+      \strng{authornamehash}{49adbba32178e81fbaba174a78817a25}
+      \strng{authorfullhash}{49adbba32178e81fbaba174a78817a25}
+      \strng{authorfullhashraw}{49adbba32178e81fbaba174a78817a25}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Blockchain-Integrated Security for real-time patient monitoring in the Internet of Medical Things using Federated Learning}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{117826\bibrangedash 117850}
+      \range{pages}{25}
+    \endentry
+    \entry{cicevse2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=b46c79aab05c1f837a1a4198c30d0a56}{%
+           family={Buedi},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c15f7fdf79408185339d4551e562b81f}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2db0d01aba9c1e1a92e3ea817d9f6f62}{%
+           family={Dadkhah},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b45dcbda0b262848325213a99adee912}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f20ca89b88ffd30e4d4747b34a73de7c}
+      \strng{fullhash}{89360ed14c672e5477e797c5540e4800}
+      \strng{fullhashraw}{89360ed14c672e5477e797c5540e4800}
+      \strng{bibnamehash}{89360ed14c672e5477e797c5540e4800}
+      \strng{authorbibnamehash}{89360ed14c672e5477e797c5540e4800}
+      \strng{authornamehash}{f20ca89b88ffd30e4d4747b34a73de7c}
+      \strng{authorfullhash}{89360ed14c672e5477e797c5540e4800}
+      \strng{authorfullhashraw}{89360ed14c672e5477e797c5540e4800}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.unb.ca/cic/datasets/evse-dataset-2024.html}}
+      \field{note}{Dataset submitted to ESORICS 2024 Conference. Available at: \url{https://www.unb.ca/cic/datasets/evse-dataset-2024.html}}
+      \field{title}{{Enhancing EV Charging Station Security Using A Multi-dimensional Dataset: CICEVSE2024}}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

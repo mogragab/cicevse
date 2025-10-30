@@ -1,0 +1,32 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "manuscript.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "bibliography.bib",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 21,
+                "EditorGroup": 0,
+                "FileName": "manuscript.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 16
+            },
+            {
+                "Col": 1,
+                "EditorGroup": 0,
+                "FileName": "bibliography.bib",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 7
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": false
+    }
+}

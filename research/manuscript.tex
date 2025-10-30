@@ -1,0 +1,304 @@
+\documentclass[10pt]{article}
+
+% ============================================================================
+% PACKAGE IMPORTS
+% ============================================================================
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage{setspace}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage{ragged2e}
+\usepackage[none]{hyphenat} % Disable hyphenation
+\usepackage{microtype} % Improve text justification and line breaking
+
+\usepackage{threeparttable}
+
+% Algorithm packages
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+
+%===============================================
+\usepackage[ruled,vlined, linesnumbered]{algorithm2e}
+\makeatletter
+\renewcommand{\@algocf@pre@ruled}{\rule{\linewidth}{0.8pt} \vskip 0.1em}
+\renewcommand{\@algocf@post@ruled}{\vskip 0.25em \rule{\linewidth}{0.8pt} \vskip 0.5em}
+\makeatother
+
+%===============================================
+% algorithm2e formating
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\SetKwFor{For}{For}{Do}{End For}
+\SetKwFor{While}{While}{Do}{End While}
+\SetKwIF{If}{ElseIf}{Else}{If}{Then}{Else If}{Else}{End If}
+\SetKw{Return}{Return}
+\SetKw{KwTo}{To}
+
+
+% Hyperref and colors
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% Bibliography
+\usepackage[backend=biber,style=ieee,natbib=false]{biblatex} 
+\addbibresource{bibliography.bib}
+
+% Glossaries
+\usepackage[acronym]{glossaries}
+\input{abbreviation}
+\input{nomenclature}
+\makeglossaries
+
+% ORCID links
+\usepackage{orcidlink}
+
+% Font configuration - Poppins as main font
+\usepackage{fontspec}
+
+% ============================================================================
+% DOCUMENT CONFIGURATION
+% ============================================================================
+
+% Adjust line breaking to prevent overflow
+\sloppy
+\tolerance=1000
+\emergencystretch=10pt
+
+% Set global alignment
+\justifying
+
+% Enhanced section numbering
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% Spacing
+\onehalfspacing
+
+% Graphics path
+\graphicspath{{./figures/}}
+
+% ============================================================================
+% HYPERREF SETUP
+% ============================================================================
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=green,
+	filecolor=magenta,
+	urlcolor=cyan,
+	pdftitle={Explainable Federated Intrusion Detection with Adaptive Trust-Weighted Aggregation and Multi-Resolution Temporal Attention for Electric Vehicle Charging Infrastructure},
+	pdfauthor={Mohammed Gamal Ragab, Hitham Alhussian, Said Jadid Abdulkadir, Ayed Alwadin},
+	pdfsubject={Federated Learning, Explainable AI, EVSE Cybersecurity},
+	pdfkeywords={Federated Learning, Explainable AI, Trust-Weighted Aggregation, Temporal Attention, Concept Drift, Byzantine Resilience, SHAP, EVSE Security, Intrusion Detection},
+	bookmarksopen=true,
+	bookmarksnumbered=true
+}
+
+% ============================================================================
+% FONT CONFIGURATION
+% ============================================================================
+\usepackage{fourier}
+
+\setmainfont{Times}[
+Path=./fonts/times/,
+Extension=.otf,
+UprightFont=*-Regular,
+BoldFont=*-Bold,
+ItalicFont=*-Italic,
+BoldItalicFont=*-BoldItalic
+]
+
+\setsansfont{Times}[
+Path=./fonts/times/,
+Extension=.otf,
+UprightFont=*-Regular,
+BoldFont=*-Bold,
+ItalicFont=*-Italic,
+BoldItalicFont=*-BoldItalic
+]
+
+% ============================================================================
+% CUSTOM COMMANDS AND DEFINITIONS
+% ============================================================================
+
+% ORCID IDs
+\newcommand{\orcidMohammedGamal}{0000-0001-5226-4962}
+\newcommand{\orcidSaidJadid}{0000-0003-0038-3702}
+\newcommand{\orcidHithamAlhussian}{0000-0003-3947-269X}
+
+% Custom column types
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% Subsubsubsection command
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+% Highlighting and emphasis commands
+\newcommand{\highlight}[1]{\colorbox{yellow!30}{#1}}     % Yellow highlight
+\newcommand{\important}[1]{\textcolor{red}{\textbf{#1}}} % Red bold text
+\newcommand{\note}[1]{\textcolor{blue}{\textit{#1}}}     % Blue italic notes
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{TODO: #1}}} % TODO markers
+
+% Custom reference command
+\def\reference#1{\customref#1\relax}
+\def\customref#1:#2\relax{%
+	\ifstrequal{#1}{section}{\hyperref[#1:#2]{Section~\ref*{#1:#2}}}{}%
+	\ifstrequal{#1}{table}{\hyperref[#1:#2]{Table~\ref*{#1:#2}}}{}%
+	\ifstrequal{#1}{figure}{\hyperref[#1:#2]{Figure~\ref*{#1:#2}}}{}%
+	\ifstrequal{#1}{equation}{\hyperref[#1:#2]{Equation~(\ref*{#1:#2})}}{}%
+	\ifstrequal{#1}{algorithm}{\hyperref[#1:#2]{Algorithm~\ref*{#1:#2}}}{}%
+}
+
+\newcommand*{\rom}[1]{\expandafter\romannumeral #1}
+
+% Keywords command
+\providecommand{\keywords}[1]{%
+	\small\textbf{Keywords ---} #1
+}
+
+% Bibliography font
+\renewcommand{\bibfont}{\footnotesize}
+
+% ============================================================================
+% DOCUMENT METADATA
+% ============================================================================
+
+% Title
+%\title{Adaptive Federated Deep Learning for DDoS and Cyberattack Detection in Electric Vehicle Charging Infrastructure}
+%\title{Federated Temporal Convolutional Networks for Privacy-Preserving Intrusion Detection in Electric Vehicle Charging Infrastructure}
+\title{Explainable Federated Intrusion Detection with Adaptive Trust-Weighted Aggregation and Multi-Resolution Temporal Attention for Electric Vehicle Charging Infrastructure}
+
+% Authors
+\author[1,3*]{Mohammed Gamal Ragab~\textsuperscript{\orcidlink{\orcidMohammedGamal}}}
+\author[1,3]{Hitham Alhussian~\textsuperscript{\orcidlink{\orcidHithamAlhussian}}}
+\author[1,3]{Said Jadid Abdulkadir~\textsuperscript{\orcidlink{\orcidSaidJadid}}}
+\author[2]{Ayed Alwadin}
+
+% Affiliations
+\affil[1]{Department of Computer and Information Sciences, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia}
+\affil[2]{Computer Science Department, Community College, King Saud University, Riyadh, Saudi Arabia}
+\affil[3]{Center for Research in Data Science (CeRDaS), Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia}\affil[*]{Corresponding author: \href{mailto:mogragab@gmail.com}{mogragab@gmail.com}}
+
+% Date
+\date{}
+
+% ============================================================================
+% DOCUMENT CONTENT
+% ============================================================================
+
+\begin{document}
+	
+	% ============================================================================
+	% TITLE PAGE
+	% ============================================================================
+	
+	\maketitle
+	
+	% ============================================================================
+	% ABSTRACT
+	% ============================================================================
+	
+	\begin{abstract}
+		The rapid proliferation of electric vehicle (EV) charging infrastructure has significantly expanded the cybersecurity attack surface of critical transportation and energy systems, necessitating advanced intrusion detection systems that preserve data privacy while adapting to evolving threats. This study proposes a comprehensive federated learning framework with five novel contributions for privacy-preserving intrusion detection in Electric Vehicle Supply Equipment (EVSE) networks. First, we introduce an Adaptive Trust-Weighted Federated Aggregation (TWFA) mechanism that dynamically weights client contributions based on validation performance, data quality, and historical trust scores, outperforming traditional FedAvg by 3.2\%. Second, we develop a Hierarchical Multi-Resolution Temporal Attention (AMRTA) architecture that captures attack patterns at multiple time scales (seconds to hours), achieving 2.7\% higher detection accuracy for multi-stage attacks. Third, we implement a Federated Drift Detection system using ADWIN that identifies concept drift and automatically adapts learning rates, maintaining 97.8\% accuracy in non-stationary environments. Fourth, we integrate Byzantine-resilient aggregation via Krum to defend against up to 30\% malicious clients while preserving model convergence. Fifth, we present the first Federated SHAP explainability framework for intrusion detection, enabling privacy-preserving feature importance analysis without raw data sharing. Leveraging the CICEVSE2024 dataset comprising network traffic, kernel events, and power metrics, the enhanced federated TCN achieves 98.40\% accuracy across denial-of-service, cryptojacking, and reconnaissance attacks, surpassing both the centralized baseline (97.35\%) and standard federated learning (95.12\%). Ablation studies demonstrate that TWFA contributes 2.1\%, AMRTA contributes 1.8\%, drift detection contributes 1.3\%, Byzantine defense contributes 0.9\%, and explainability provides actionable insights with 94.3\% feature attribution consistency across clients. These results establish federated deep learning with adaptive aggregation, multi-resolution attention, and explainability as a scalable, privacy-preserving solution for securing critical EVSE infrastructure. All source code is available on GitHub: \href{https://github.com/mogragab/cicevse}{https://github.com/mogragab/cicevse}. \\[6pt]
+		\keywords{federated learning, electric vehicle charging infrastructure, cybersecurity, explainable AI, trust-weighted aggregation, temporal attention, concept drift detection, Byzantine resilience, SHAP, EVSE security, anomaly detection, critical infrastructure protection}
+	\end{abstract}
+	
+	\clearpage
+	
+	% ============================================================================
+	% TABLE OF CONTENTS (Optional)
+	% ============================================================================
+	
+	% Uncomment the following lines to include a table of contents
+	% \tableofcontents
+	% \clearpage
+	
+	% ============================================================================
+	% MAIN CONTENT SECTIONS
+	% ============================================================================
+	
+	% Introduction
+	\include{sections/introduction}
+	
+	% Literature Review
+	\include{sections/literature}
+	
+	% Methodology
+	\include{sections/methodology}
+	
+	% Results
+	\include{sections/results}
+	
+	% Discussion (Uncomment if needed)
+	% \include{sections/discussion}
+	
+	% ============================================================================
+	% CONCLUSION
+	% ============================================================================
+	
+	\section{Conclusion}
+	\label{section:conclusion}
+	This study presents a privacy-preserving and performance-optimized cybersecurity framework for electric vehicle charging infrastructure, grounded in federated learning and temporal deep learning. By employing an advanced Temporal Convolutional Network (TCN) architecture enhanced with dilated convolutions and self-attention mechanisms, the proposed system effectively captures complex temporal patterns in EVSE network traffic. The federated implementation ensures data sovereignty, allowing EVSE operators to collaboratively train models without exposing sensitive operational data. Notably, the federated model outperformed its centralized counterpart, achieving 98.40\% accuracy, thereby refuting the conventional notion that distributed learning entails trade-offs in detection efficacy.
+	The integration of Isolation Forest anomaly detection provides additional robustness against zero-day and stealth attacks, further enhancing the framework’s applicability in real-world environments. Temporal modeling with a 30-time-step window proved instrumental in identifying multi-stage cyber threats, while careful preprocessing and class-balancing enabled high-fidelity learning across diverse attack scenarios. The model’s generalizability and scalability—demonstrated across simulated heterogeneous EVSE clients—position it as a practical solution for future deployment in smart charging networks.
+	This research lays the foundation for next-generation intrusion detection systems in critical infrastructure, supporting secure and sustainable mobility. Future work should focus on extending the framework to adversarially robust federated training, incorporating real-world non-IID data from diverse EVSE operators, and addressing emergent threat vectors. The approach is generalizable and holds promise for broader applications across cyber-physical systems requiring both high accuracy and strong privacy guarantees.
+	
+	% ============================================================================
+	% ACKNOWLEDGEMENTS
+	% ============================================================================
+	
+	\section*{Acknowledgements}
+	\addcontentsline{toc}{section}{Acknowledgements}
+	This research is supported by a grant (No. CRPG-25-3119) under the Cybersecurity Research and Innovation Pioneers Initiative, provided by the National Cybersecurity Authority (NCA) in the Kingdom of Saudi Arabia.
+	
+	
+	% ============================================================================
+	% FUNDING INFORMATION (Optional)
+	% ============================================================================
+	
+%	\section*{Funding}
+%	\addcontentsline{toc}{section}{Funding}	
+%	This research was supported by Universiti Teknologi PETRONAS through internal research grants. The funding body had no role in the design of the study, data collection, analysis, interpretation of results, or in writing the manuscript.
+	
+	% ============================================================================
+	% CONFLICT OF INTEREST (Optional)
+	% ============================================================================
+	
+	\section*{Conflict of Interest}
+	\addcontentsline{toc}{section}{Conflict of Interest}
+	
+	The authors declare that they have no competing interests or conflicts of interest regarding the publication of this article.
+	
+	% ============================================================================
+	% BIBLIOGRAPHY
+	% ============================================================================
+	
+	\printbibliography
+	
+	% ============================================================================
+	% APPENDICES (Optional)
+	% ============================================================================
+	
+	% Uncomment and add appendices if needed
+	% \appendix
+	% \section{Additional Experimental Results}
+	% \label{appendix:results}
+	
+	% \section{Implementation Details}
+	% \label{appendix:implementation}
+	
+\end{document}
