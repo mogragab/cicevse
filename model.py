@@ -1585,27 +1585,33 @@ def generate_all_visualizations(results, mode, detection_type):
             results["labels"],
             f"Class Distribution per Client {title_suffix}",
         )
-filepath = "./evse_scenario_classification.csv"
-# # --- Run All Analyses ---
+# --- Run All Analyses ---
+# Binary classification
+# filepath_binary = "./evse_binary_classification.csv"
 # fed_binary_results = run_analysis(
-#     filepath, detection_type="binary", federated=True, rounds=5
+#     filepath_binary, detection_type="binary", federated=True, rounds=5
 # )
-
 # cent_binary_results = run_analysis(
-#     filepath, detection_type="binary", federated=False, rounds=5
+#     filepath_binary, detection_type="binary", federated=False, rounds=5
 # )
 
-# plot_sunburst_attacks(
-#     fed_binary_results["df"], "Sunburst Hierarchy of Attack Types"
-# )
-
-
+# Multiclass attack type classification
+filepath_multiclass = "./evse_multiclass_attacks.csv"
 fed_multi_results = run_analysis(
-    filepath, detection_type="multiclass", federated=True, rounds=5
+    filepath_multiclass, detection_type="multiclass", federated=True, rounds=5
 )
 cent_multi_results = run_analysis(
-    filepath, detection_type="multiclass", federated=False, rounds=1
+    filepath_multiclass, detection_type="multiclass", federated=False, rounds=1
 )
+
+# Scenario classification
+# filepath_scenario = "./evse_scenario_classification.csv"
+# fed_scenario_results = run_analysis(
+#     filepath_scenario, detection_type="scenario", federated=True, rounds=5
+# )
+# cent_scenario_results = run_analysis(
+#     filepath_scenario, detection_type="scenario", federated=False, rounds=1
+# )
 # --- Generate Visualizations ---
 logging.info("\n" + "=" * 30 + "\nGENERATING VISUALIZATIONS\n" + "=" * 30)
 
